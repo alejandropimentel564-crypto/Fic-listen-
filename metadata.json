@@ -1,0 +1,6 @@
+{
+  "name": "FicSwipe Reader",
+  "description": "FicSwipe Reader to read, swipe, save, and listen to FanFiction.net stories offline with customizable fonts and adjustable TTS audio playback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

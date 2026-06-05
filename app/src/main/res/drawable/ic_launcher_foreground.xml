@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Stylized book silhouette with page divisions -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M54,36 C42,36 34,40 34,40 L34,74 C34,74 42,70 54,72 C66,70 74,74 74,74 L74,40 C74,40 66,36 54,36 Z" />
+    
+    <!-- Central book fold separator line -->
+    <path
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="1.5"
+        android:pathData="M54,39 L54,71" />
+
+    <!-- Headphone arch loop sitting over the open book, strictly within safe bounds -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M28,62 C28,34 80,34 80,62" />
+
+    <!-- Left side headphone earpad cushion -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M24,56 H30 V68 H24 Z" />
+
+    <!-- Right side headphone earpad cushion -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M78,56 H84 V68 H78 Z" />
+</vector>
